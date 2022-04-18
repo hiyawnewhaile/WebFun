@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <div>
+        <lable>First Name:*</lable>
+        <input type="text" name="first_name">
+    </div>
+    <div>
+        <lable>Last Name:*</lable>
+        <input type="text" name="last_name">
+    </div>
+    <div>
+        <lable>Email Address:*</lable>
+        <input type="text" name="email_address">
+    </div>
+    <div>
+        <lable>Password:*</lable>
+        <input type="password" name="password">
+    </div>
+    <div>
+        <lable>Confirm Password</lable>
+        <input type="password" name="confirm_password">
+    </div>
+    <div>
+        <lable>Birthday</lable>
+        <input type="date" name="dob">
+    </div>
+    <div>Gender Identity:</div>
+    <div>
+        <input type="radio" name="male" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="female" id="female">
+        <label for="female">Female</label>
+        <input type="radio" name="nb" id="nb">
+        <label for="nb">Non-binary</label>
+        <input type="radio" name="na" id="na">
+        <label for="na">I prefer not to answer</label>
+    </div>
+    <div>A short description about myself:</div>
+    <div>
+            <textarea name="description" id="description" cols="30" rows="4"></textarea>
+    </div>
+    <div>
+        <label>Favorite Language:</label>
+        <select>name="language">
+            <option>JavaScript</option>
+            <option>CSS</option>
+            <option>html</option>
+        </select>
+    </div>
+    <div>
+        <input type="checkbox" name="email_updates" id="email_updates">
+        <label for="email_updates">
+            Yes, I would like to recieve periodic email updates
+        </label>
+    </div>
+    <div>
+        <input type="submit" value="Create Account">
+    </div>
+    <div>* Indicates a required field</div>
+</body>
+</html>
