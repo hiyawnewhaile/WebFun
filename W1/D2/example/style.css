@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(113, 181, 226);
+}
+    h1 {
+        background-color: bisque;
+        color: rebeccapurple;
+        font-size: 50px;;
+    }
+    .red {
+        background-color: red;
+    }
+    #b {
+        background-color: blueviolet;
+    }

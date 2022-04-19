@@ -1,0 +1,29 @@
+h1{
+    background-color: fuchsia;
+    font-size: 45px;
+}
+p{
+    color: chocolate;
+    background-color: cornflowerblue;
+}
+.notblue{
+    color: firebrick;
+}
+p.notblue{
+    color: black;
+}
+div > p{
+    background-color: salmon;
+}
+#lastp{
+    background-color: greenyellow;
+}
+#bb{
+    height: 100px;
+}
+#middlep{
+    padding: 40px;
+    padding-left: 10px;
+    margin: 25;
+    border: 2px dotted blue;
+}
