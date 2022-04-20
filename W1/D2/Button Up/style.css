@@ -1,0 +1,28 @@
+button{
+    color: turquoise;
+    margin-top: 50px; 
+    border: 2px solid turquoise;
+    padding: 2px 25px;
+    border-radius: 15px;
+    margin-left: 50px;
+    display: block;
+}
+button.add{
+    background-color: turquoise;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    align-items: center;
+    margin: 10px 50px 10px;
+    width: 40px;
+    height: 40px;
+}
+button.create{
+    background-color: dodgerblue;
+    border: 2px solid black;
+    color: whitesmoke;
+    margin: 0px 50px;
+    border-radius: 0%;
+    box-shadow: 5px 5px 5px black;
+}
