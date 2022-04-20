@@ -1,8 +1,9 @@
 .container{
     background-color: whitesmoke;
-    display: flex;
-    flex-direction: column;
     padding: 20px;
+    margin: 0 auto;
+    width: 650px;
+
 }
 h1{
     text-align: center;
@@ -18,8 +19,8 @@ a{
     background-color: aqua;
     width: 650px;
     height: 200px;
-    justify-content: center;
     justify-content: space-between;
+    vertical-align: middle;
 }
 .pinkrectangle{
     display: flex;
@@ -27,6 +28,7 @@ a{
     width: 650px;
     height: 200px;
     margin-top: 20px;
+    justify-content: space-evenly;
 }
 .whiterectangle{
     display: flex;
@@ -34,8 +36,15 @@ a{
     width: 650px;
     height: 200px;
     margin-top: 20px;
+    justify-content: space-between;
+
 }
 .images{
     height: 150px;
     margin: 20px;
+}
+.ibox{
+    background-color: white;
+    height: 150px;
+    margin: 15;
 }
