@@ -1,0 +1,41 @@
+.container{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+a{
+    color: turquoise;
+}
+.bluerectangle{
+    display: flex;
+    background-color: aqua;
+    width: 650px;
+    height: 200px;
+    justify-content: center;
+    justify-content: space-between;
+}
+.pinkrectangle{
+    display: flex;
+    background-color: palevioletred;
+    width: 650px;
+    height: 200px;
+    margin-top: 20px;
+}
+.whiterectangle{
+    display: flex;
+    background-color: white;
+    width: 650px;
+    height: 200px;
+    margin-top: 20px;
+}
+.images{
+    height: 150px;
+    margin: 20px;
+}
