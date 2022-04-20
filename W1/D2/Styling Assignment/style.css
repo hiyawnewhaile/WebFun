@@ -3,6 +3,8 @@ h1{
     font-size: 50px;
     background-color: black;
     color: white;
+    padding-left:  20px;
+    margin: 5px;
 }
 .my{
     color:aqua;
@@ -10,4 +12,18 @@ h1{
 h2{
     text-align: center;
     background-color: rebeccapurple;
+    font-family: cursive;
+    font-size: 30px;
+    margin: 5px;
+    color: white;
+    font-style: italic;
+}
+h3{
+    background-color: lightskyblue;
+    text-align: right;
+    font-family: cursive;
+    margin: 5px;
+    padding-right: 20px;
+    text-decoration: underline;
+    padding-bottom: 5px;
 }
