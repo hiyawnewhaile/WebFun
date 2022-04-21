@@ -1,0 +1,56 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+.container{
+    background-color: white;
+    height: 275px;
+    width: 500px;
+    border: 2px solid grey;
+    margin-top: 30px;
+    border-radius: 3px;
+}
+.topbox{
+    background-color: lightskyblue;
+    height: 75px;
+    width: inherit;
+    margin: -2px;
+    border-radius: 3px;
+}
+.img{
+    height: 75px;
+    margin-left: 20px;
+    margin-top: -40px;
+}
+.name{
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.city{
+    display: flex;
+    margin-top: 10px;
+
+}
+.mmarker{
+    height: 15px;
+    margin-left:  25px;
+    margin-top: 5px;
+    margin-right: 0;
+}
+.stl{
+    font-family: cursive;
+    margin-left: 10px;
+}
+.profession{
+    font-family: cursive;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+#gear{
+    margin-left: 0;
+}
+.ltext{
+    color: dodgerblue
+}
