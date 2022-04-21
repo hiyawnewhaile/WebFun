@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: black;
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    height: 30px;
+    align-items: center;
+}
+.nav-title{
+    color: white;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 10px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -60px;
+}
+.nav-links > li{
+    margin-right: 15px;
+    list-style: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.btn{
+    box-shadow: 5px 5px black;
+    color: white;
+    background-color: turquoise;
+    border-color: black;
+    padding: 3px 8px;
+}
+.container{
+    background-color: white;
+    width: 50%;
+    border: 3px solid darkgray;
+    margin-top: 30px;
+    border-radius: 3px;
+}
+.topbox{
+    background-color: lightskyblue;
+    height: 75px;
+    margin: -3px;
+    border-radius: 3px;
+}
+.img{
+    height: 75px;
+    margin-left: 20px;
+    margin-top: -40px;
+    border-radius: 50%;
+    border: solid black;
+    outline: solid white;
+    box-shadow: 0 0 0 6px grey;
+}
+.name{
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.city{
+    display: flex;
+    margin-top: 10px;
+
+}
+.mmarker{
+    height: 15px;
+    margin-left:  25px;
+    margin-top: 5px;
+    margin-right: 0;
+}
+.stl{
+    font-family: cursive;
+    margin-left: 10px;
+}
+.profession{
+    font-family: cursive;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+#gear{
+    margin-left: 0;
+}
+.ltext{
+    color: dodgerblue
+}
+.largecontainer1{ 
+    width: 85%;
+    height: 800;
+    padding: 0 50px;
+} 
+.edcontainer{
+    background-color: white;
+    height: 275px;
+    width: 50%;
+    margin-top: 30px;
+    border-radius: 3px;
+}
+.edbar{
+    height: 25px;
+    background-color: rgb(53, 53, 53);
+    padding: 6px;
+    border-radius: 3px;
+
+}
+.edbody{
+    border: 3px solid darkgray;
+    border-top: none;
+    padding: 20px;
+}
+.edp{
+    margin-left: 20px;
+    color: white;
+    font-family: cursive;
+}
+.edp2{
+    font-family: cursive;
+}
+#date{
+    color: grey;
+}
