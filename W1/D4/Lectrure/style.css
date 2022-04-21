@@ -1,0 +1,35 @@
+*{
+    /* outline: 1px solid grey; */
+    margin: 0;
+    padding: 0;
+}
+p{
+    background-color: aquamarine;
+}
+.bob{
+    background-color: burlywood;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    position: fixed;
+    bottom: 10px;
+    right: 50px;
+}
+.carl{
+    background-color: teal;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+.sticky{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: sticky;
+    top: 50px;
+    bottom: 25px;
+}
