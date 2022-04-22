@@ -18,7 +18,7 @@
 .nav-links{
     display: flex;
     justify-content: space-evenly;
-    margin-left: -60px;
+    /* margin-left: -50px; */
 }
 .nav-links > li{
     margin-right: 15px;
@@ -35,9 +35,8 @@ a{
     border-color: black;
     padding: 3px 8px;
 }
-.container{
+.lefttopcontainer{
     background-color: white;
-    width: 50%;
     border: 3px solid darkgray;
     margin-top: 30px;
     border-radius: 3px;
@@ -87,17 +86,16 @@ a{
     margin-left: 0;
 }
 .ltext{
-    color: dodgerblue
+    color: dodgerblue;
+    text-decoration: underline;
 }
-.largecontainer1{ 
-    width: 85%;
+.leftcontainer{ 
     height: 800;
     padding: 0 50px;
 } 
-.edcontainer{
+.leftbottomcontainer{
     background-color: white;
     height: 275px;
-    width: 50%;
     margin-top: 30px;
     border-radius: 3px;
 }
@@ -124,3 +122,68 @@ a{
 #date{
     color: grey;
 }
+.connectionrbox{
+    display: flex;
+    height: 45px;
+    background-color: rgb(53, 53, 53);
+}
+.rightcontainer{
+    height: 800px;
+    margin-top: 30px;
+}
+.mastercontainer{
+    display: flex;
+}
+.todd{
+    display: flex;
+    justify-content:;
+    padding: 8px;
+}
+.rpics{
+    height: 25px;
+}
+#prpics{
+    border-radius: 50%;
+
+}
+.chkmrks{
+    width: 15px;
+}
+.requests{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid darkgray;
+    border-top: none;
+}
+.rtext{
+    margin-left: 15px;
+    padding-top: 2.5px;
+    font-family: cursive;
+}
+#chk{
+    margin-left: 30px;
+}
+#chk2{
+    margin-left: 10px;
+}
+.number2{
+    background-color: grey;
+    border-radius: 50%;
+    padding: 8px;
+    margin: 10px;
+    padding-top: 2px;
+    font-family: cursive;
+}
+.crtext{
+    font-family: cursive;
+    color: white;
+    padding-top: 10px;
+}
+#bottom{
+    margin-top: 30px;
+}
+.vm{
+    border-top: solid darkgray;
+    padding: 10px;
+}
+
