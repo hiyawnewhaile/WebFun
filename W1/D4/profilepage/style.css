@@ -126,6 +126,7 @@ a{
     display: flex;
     height: 45px;
     background-color: rgb(53, 53, 53);
+    border-radius: 3px;
 }
 .rightcontainer{
     height: 800px;
@@ -181,6 +182,7 @@ a{
 }
 #bottom{
     margin-top: 30px;
+    border-radius: 3px;
 }
 .vm{
     border-top: solid darkgray;
