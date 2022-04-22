@@ -13,7 +13,7 @@ function turn(arr) {
         b[i]=a[a.length-1-i]
     }
     console.log(b)
-    return
+    return b
 }
 
 turn(a)
