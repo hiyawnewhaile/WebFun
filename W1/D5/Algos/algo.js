@@ -15,8 +15,28 @@ function turn(arr) {
     console.log(b)
     return b
 }
-
 turn(a)
+
+function turn2(arr) {
+    var b=[]
+    for(i=arr.length-1; i>=0; i--){
+        b.push(arr[i])
+    }
+    console.log(b)
+    return b
+}
+turn(a)
+
+//bestpractice
+
+function reverse(arr){  
+    for(var i=0; i<arr.length/2;i++){
+        var temp=arr[i]
+        arr[i]=arr[arr.length-1-i]
+        arr[arr.length-1-i]=temp
+    }
+    return arr
+}
 
 a[0],a[4]=a[4],a[0]
 console.log(a)
