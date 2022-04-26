@@ -34,6 +34,7 @@ a{
     background-color: turquoise;
     border-color: black;
     padding: 3px 8px;
+    border-radius: 3px;
 }
 .lefttopcontainer{
     background-color: white;
@@ -111,6 +112,8 @@ a{
     border: 3px solid darkgray;
     border-top: none;
     padding: 20px;
+    border-radius: 3px;
+    
 }
 .edp{
     margin-left: 20px;
@@ -156,6 +159,7 @@ a{
     flex-direction: column;
     border: 3px solid darkgray;
     border-top: none;
+    border-radius: 3px;
 }
 .rtext{
     margin-left: 15px;
