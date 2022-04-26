@@ -9,14 +9,16 @@
     </head>
     <body>
         <div class="nav">
-            <h1 class="nav-title">Profile</h1>
-            <div class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#" class="active">My Profile</a></li>
-                <li><a href="#">Find Connections</a></li>
-            </div>>
-            <div>
-                <button class="btn">Sign Out</button>
+            <div class="navinbox">
+                <h1 class="nav-title">Profile</h1>
+                <div class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#" class="active">My Profile</a></li>
+                    <li><a href="#">Find Connections</a></li>
+                </div>>
+                <div>
+                    <button class="btn">Sign Out</button>
+                </div>
             </div>
         </div>
         <div class="mastercontainer">
@@ -36,7 +38,7 @@
                             <div>Master of Shadows and the Internet!</div>
                             <div class="city">
                                 <img class="mmarker" id="gear" src="icons/icons/gear.png" alt="">
-                                <div class="stl"><a class="ltext" href="https://www.codingdojo.com/">edit profile</a></div>
+                                <div class="stl"><a onclick="changename()" class="ltext" href="#">edit profile</a></div>
                             </div>
                         </div>
             </div>
@@ -58,17 +60,25 @@
                     <p class="crtext">Connection Requests</p>
                 </div>
                 <div class="requests">
-                    <div class="todd">
-                        <img class="rpics" id="prpics" src="images/images/todd-s.jpg" alt="todde">
-                        <p class="rtext">Todd E</p>
-                        <img class="rpics" id="chk" src="icons/icons/accept-circle.png" alt="acc">
-                        <img class="rpics" id="chk2" src="icons/icons/close-circle.png" alt="acc">
+                    <div class="todd" id="a1">
+                        <div class="toddleft">
+                            <img class="rpics" id="prpics" src="images/images/todd-s.jpg" alt="todde">
+                            <p class="rtext">Todd E</p>
+                        </div>
+                        <div class="toddright">
+                            <img onclick="masterdisappears('#a1')" class="rpics" id="chk" src="icons/icons/accept-circle.png" alt="acc">
+                            <img onclick="masterdisappears('#a1')" class="rpics" id="chk2" src="icons/icons/close-circle.png" alt="acc">
+                        </div>    
                     </div>
-                    <div class="todd">
-                        <img class="rpics" id="prpics" src="images/images/phil-s.jpg" alt="phil">
-                        <p class="rtext">Phill K</p>
-                        <img class="rpics" id="chk" src="icons/icons/accept-circle.png" alt="acc">
-                        <img class="rpics" id="chk2" src="icons/icons/close-circle.png" alt="acc">
+                    <div class="todd" id="a2">
+                        <div class="toddleft">
+                            <img class="rpics" id="prpics" src="images/images/phil-s.jpg" alt="phil">
+                            <p class="rtext">Phill K</p>
+                        </div>
+                        <div class="toddright">
+                            <img onclick="masterdisappears('#a2')" class="rpics" id="chk" src="icons/icons/accept-circle.png" alt="acc">
+                            <img onclick="masterdisappears('#a2')" class="rpics" id="chk2" src="icons/icons/close-circle.png" alt="acc">
+                        </div>    
                     </div>
                 </div>
 
@@ -99,5 +109,6 @@
                 </div>
             </div>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>
