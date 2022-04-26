@@ -40,6 +40,7 @@ a{
     border: 3px solid darkgray;
     margin-top: 30px;
     border-radius: 3px;
+    padding-bottom: 20px;
 }
 .topbox{
     background-color: lightskyblue;
