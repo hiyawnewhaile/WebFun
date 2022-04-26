@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.topbar{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 100px;
+    font-family: cursive;
+    font-size: 30px;
+}
+.yourfeed{
+    margin: 0 100px;
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+}
+.container{
+    margin: 10px 100px;
+    display: flex;
+}
+.leftbox{
+    display: flex;
+    border: solid black 4px;
+    border-radius: 3px;
+    padding: 20px 10px;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+img{
+    width: 60px;
+}
+a{
+    color: cornflowerblue;
+    font-family: cursive;
+}
+p{
+    font-family: cursive;
+}
+.rt{
+
+    border: solid black 4px;
+    border-radius: 3px;
+    padding: 20px;
+    margin-left: 20px;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+.likes{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+.namespace{
+    margin-left: auto;
+}
+button{
+    background-color: gold;
+    font-family: cursive;
+    padding: 3px 9px;
+    border-radius: 3px;
+    box-shadow: 3px 3px ;
+}
+.rightbox{
+    margin-right: 100px;
+}

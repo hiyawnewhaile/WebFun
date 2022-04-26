@@ -17,4 +17,4 @@ var p3 = pizzaOven("thin crust","alfredo",["mozzarella","parmesan"],["olives","b
 console.log(p3);
 
 var p4 = pizzaOven("stuffed crust","pesto",["ricotta","mozzarella"],"basil");
-console.log(p4)
+console.log(p4);
