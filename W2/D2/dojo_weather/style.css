@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+.navcontainer{
+    background-color: lightskyblue;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    min-width: 500px;
+    max-width: 850px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 250px;
+    font-size: 20px;
+}
+.dw{
+    font-size: 30px;
+}
+.mastercontainer{
+    padding: 0 100px;
+}
+.sanjose{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black;
+    padding: 10px 0;
+    margin-top: 5px;
+    min-width: 750px;
+    max-width: 850px;
+}
+.sj{
+    font-size: 20px;
+}
+.unitcontainer{
+    display: flex;
+    justify-content: space-between;
+    min-width: 200px;
+}
+select{
+    border: solid;
+    border-radius: 3px;
+}
+.weatherforecast{
+    display: flex;
+    min-width: 750px;
+    max-width: 850px;
+    justify-content: space-between;
+    padding: 20px 0 5px 0;
+}
+.clouds{
+    height: 120px;
+    border-radius: 50%;
+}
+.days{
+    background-color: #eee;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 200px;
+}
+.wday{
+    font-size: 25px;
+    font-weight: bold;
+}
+.temp{
+    display: flex;
+    justify-content: space-between;
+    min-width: 125px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.high{
+    color: firebrick;
+}
+.low{
+    color: blue;
+}
+.cookietime{
+    display: flex;
+    border: solid;
+    border-radius: 3px;
+    min-width: 747px;
+    max-width: 847px;
+    margin-bottom: 10px;
+}
+.cookiepic{
+    padding: 10px;
+}
+button{
+    width: 150px;
+    height: 25px;
+    margin: 30px;
+    background-color: #9fc5f8;
+    border: solid;
+    box-shadow: 2px 2px;
+    border-radius: 3px;
+}
+.stop{
+    font-weight: bold;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navcontainer">
+        <ul>
+            <li class="dw">DojoWeather</li>
+        </ul>
+        <ul>       
+            <li>Burbank</li>
+            <li>Chicago</li>
+            <li>Dallas</li>
+        </ul>
+    </div>
+    <div class="mastercontainer">
+        <div class="sanjose">
+            <p class="sj">San Jose</p>
+            <div class="unitcontainer">
+                <p>show temperature in</p>
+                <select name="units">
+                    <option>&#8451;</option>
+                    <option>&#8457;</option>
+                </select>
+            </div>        
+        </div>
+        <div class="weatherforecast">
+            <div class="days">
+                <p class="wday">Today</p>
+                <img class="clouds" src="assets/assets/some_rain.png" alt="">
+                <p>some rain</p>
+                <div class="temp">
+                    <div class="high">24&#8451;</div>
+                    <div class="low">18&#8451;</div>
+                </div>
+            </div>
+            <div class="days">
+                <p class="wday">Tomorrow</p>
+                <img class="clouds" src="assets/assets/some_sun.png" alt="">
+                <p>some sun</p>
+                <div class="temp">
+                    <div class="high">27&#8451;</div>
+                    <div class="low">19&#8451;</div>
+                </div>
+            </div>
+            <div class="days">
+                <p class="wday">Friday</p>
+                <img class="clouds" src="assets/assets/some_clouds.png" alt="">
+                <p>some clouds</p>
+                <div class="temp">
+                    <div class="high">21&#8451;</div>
+                    <div class="low">16&#8451;</div>
+                </div>
+            </div>
+            <div class="days">
+                <p class="wday">Saturday</p>
+                <img class="clouds" src="assets/assets/some_sun.png" alt="">
+                <p>some sun</p>
+                <div class="temp">
+                    <div class="high">26&#8451;</div>
+                    <div class="low">21&#8451;</div>
+                </div>
+            </div>
+        </div>
+        <div class="cookietime">
+            <img class="cookiepic" src="assets/assets/cookie.png" alt="">
+            <div class="cookietext">
+                <p class="stop">Stop! Cookie time</p>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social medua features and to analyse our traffic. <a href="#">Read more...</a> </p>
+            </div>
+                <button>I Accept</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
