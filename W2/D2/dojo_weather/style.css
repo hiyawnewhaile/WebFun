@@ -78,10 +78,10 @@ select{
     font-weight: bold;
     margin-top: 20px;
 }
-.high{
+#high{
     color: firebrick;
 }
-.low{
+#low{
     color: blue;
 }
 .cookietime{
