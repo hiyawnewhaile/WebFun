@@ -13,9 +13,9 @@
             <li class="dw">DojoWeather</li>
         </ul>
         <ul>       
-            <li>Burbank</li>
-            <li>Chicago</li>
-            <li>Dallas</li>
+            <li onclick="alert('Burbank')">Burbank</li>
+            <li onclick="alert('Chicago')">Chicago</li>
+            <li onclick="alert('Dallas')">Dallas</li>
         </ul>
     </div>
     <div class="mastercontainer">
@@ -23,7 +23,7 @@
             <p class="sj">San Jose</p>
             <div class="unitcontainer">
                 <p>show temperature in</p>
-                <select name="units">
+                <select onchange="f()" class="si" name="units">
                     <option>&#8451;</option>
                     <option>&#8457;</option>
                 </select>
@@ -73,7 +73,7 @@
                 <p class="stop">Stop! Cookie time</p>
                 <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social medua features and to analyse our traffic. <a href="#">Read more...</a> </p>
             </div>
-                <button>I Accept</button>
+            <button onclick="crumbs()">I Accept</button>
         </div>
     </div>
     <script src="script.js"></script>
